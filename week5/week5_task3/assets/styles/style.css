@@ -1,0 +1,458 @@
+/*Figma template - https://www.figma.com/file/dD0QDlBtLlf4iznDvjOMti/italic?node-id=1%3A2&t=9OBbceTP3USw51GW-1*/
+
+      /*Upper brown menu*/
+      .uppermenu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 4.2vh;
+        background: #383230;
+      }
+
+      /*Links in the upper brown menu*/
+      .upperlink {
+        margin: 0 8vw;
+
+        font-family: "IBM Plex Mono", Times, monospace;
+        font-size: 11px;
+
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        color: #ffffff;
+      }
+      #membership { 
+        margin: 0;
+      }
+
+      /*Upper main menu*/
+      .mainmenu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        
+        height: 8.5vh;
+        background: #fefdfc;
+      }
+
+      /*Logo image*/
+      #logo {
+        max-width: 50%;
+        max-height: 50%;
+      }
+      
+      /*List of navigation links*/
+      .link-menu {
+        display: flex;
+        flex-flow: row wrap;
+        
+        padding: 0;
+        margin: 0;
+      
+        list-style: none;
+      }
+      
+      /*Navigation links*/
+      .link {
+        margin-right: 1.5vw;
+
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        
+        text-decoration: none;
+
+        color: #383230;
+      }
+      .link:hover {
+        font-size: 120%;
+      }
+      
+      /*Header1 and Header2 in main block*/
+      main h1,
+      main h2 {
+        margin-top: 8vh;
+
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+
+        text-align: center;
+
+        color: #000000;
+      }
+
+      /*Header1 - Luxury without labels. */
+      main h1 {
+        font-size: 48px;
+        letter-spacing: 3.2px;
+        animation-name: h1animation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+      }
+      /*Animation for Header1*/
+      @keyframes h1animation {
+        0% {
+          font-size: 28px;
+        }
+        10% {
+          font-size: 30px;
+        }
+        20% {
+          font-size: 32px;
+        }
+        30% {
+          font-size: 34px;
+        }
+        40% {
+          font-size: 36px;
+        }
+        50% {
+          font-size: 38px;
+        }
+        60% {
+          font-size: 40px;
+        }
+        70% {
+          font-size: 42px;
+        }
+        80% {
+          font-size: 44px;
+        }
+        90% {
+          font-size: 46px;
+        }
+        100% {
+          font-size: 48px;
+        }
+      }
+
+      /*Header2 - Unbranded luxury-grade essentials
+            from the same manufacturers as your
+            favorite brands. No logos, no markups.*/
+      main h2 {
+        font-size: 34px;
+        line-height: 141%;
+        letter-spacing: 2px;
+      }
+
+      /* . */
+      #point {
+        margin-left: 55.5vw;
+        margin-top: 1.3vh;
+
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 25%;
+
+        letter-spacing: 3px;
+
+        color: #383230;
+      }
+
+      /*Wide images*/
+      .wideimage {
+        width: 100%;        
+      }
+
+      /*Container of link "Learn More"*/
+      #learn-more {
+        margin-top: 4.4vh;
+        margin-left: 47vw;
+      }
+      /*Link "Learn More"*/
+      #link-learn {
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+
+        text-align: center;
+        text-decoration: none;
+
+        color: #000000;
+      }
+      #link-learn:visited {
+        color: #610303;
+      }
+      /*Line under link "Learn More"*/
+      #line {
+        width: 76px;
+        height: 0px;
+        margin-top: 6px;
+        border: 1px solid black;
+      }
+
+      /*Block with brands' logos*/
+      .brands-block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 80px;
+        margin-top: 80px;
+        background: #f9f7f4;
+      }
+      .brands-block img {
+        margin: 0 2vw;
+      }
+      
+      /*Block with articles*/
+      .article-block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 20vh;
+      }
+      
+      .article-link {
+        width: 40%;
+        text-decoration: none;
+      }
+      .article-link:hover {
+        background-color: rgb(242, 221, 186);
+      }
+      .article-link img {
+        width: 100%;
+      }
+      .article-link h3 {
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 134%;
+
+        letter-spacing: 0.7px;
+
+        color: #000000;
+      }
+
+      .article-link p {
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+
+        color: #555555;
+      }
+
+      /*OUR COMMITMENT TO QUALITY.*/
+      .commit {
+        margin: 20vh 5%;        
+      }
+      #commitment-header {
+        justify-self: flex-start;
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+
+        text-transform: uppercase;
+
+        color: #817a70;
+      }
+
+      /*It all starts with our goal of making luxury-level products accessible to all. Whether it’s sourcing Grade A cashmere from Mongolia or devoting hundreds of hours of wear-testing to develop the perfect leather sneakers — we won’t sell it until we love it.*/
+      #commitment {
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 137%;
+
+        letter-spacing: 2px;
+
+        color: #000000;
+      }
+
+      /*3 text columns*/
+      .article-column {
+        width: 20%;
+      }
+
+      .article-column h3 {
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+
+        color: #383230;
+      }
+
+      .article-column p {
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+
+        color: #817a70;
+      }
+
+      /*Footer*/
+      .footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-top: 5vh;
+        
+        background: #383230;
+      }
+
+      /*Block for submition*/
+      .submit {
+        width: 24%; 
+        margin-block-start: 5%;    
+        
+      }
+
+      .submit h2 {
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 120%;
+
+        color: #ffffff;
+      }
+
+      .submit p {
+        margin-top: 16px;
+
+        font-family: "EB Garamond", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+
+        letter-spacing: 0.6px;
+
+        color: #e0dbd2;
+      }
+
+      /*Text input*/
+      #input-text {
+        height: 48px;
+        width: 239px;
+        background: #383230;
+        border: 1px solid #8c8c8c;
+        border-radius: 4px;
+      }
+      #input-text:focus {
+        background: #ffffff;
+      }
+
+      /*Submit button*/
+      #input-submit {
+        height: 48px;
+        width: 77px;
+        background: #ffffff;
+        border-radius: 3px;
+
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+
+        text-align: center;
+
+        color: #383230;
+      }
+      #input-submit:hover {
+        color: #f1cbbe;
+      }
+      #input-submit:focus {
+        background: #383230;
+      }
+
+      /*3 footer columns with links*/
+      .nav-footer-block {
+        display: flex;
+        justify-content: space-around;
+
+        margin-block-start: 5%;
+        width: 40%;
+      
+      }
+      .nav-footer {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+      }
+      .nav-footer ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      .nav-footer li {
+        margin-bottom: 10%;
+      }
+      .nav-footer h4 {
+        margin-bottom: 20%;
+
+        font-family: "IBM Plex Mono", Times, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+
+        text-transform: uppercase;
+
+        color: #817a70;
+      }
+
+      .nav-footer a {
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+
+        text-decoration: none;
+        color: #e0dbd2;
+      }
+      .nav-footer a:hover {
+        font-size: 110%;
+      }
+
+      /*Copyright block*/
+      .copyright {
+        margin: 10% 0 2% 0; 
+        width: 50%;
+
+        font-family: "Inter", Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 100%;
+
+        text-transform: uppercase;
+
+        color: #8c8c8c;
+      }
+
+      .copyright a {
+        margin-left: 24px;
+        text-decoration: none;
+        color: #8c8c8c;
+      }
+
+      /*Social media block*/
+      .social-media {
+        margin: 10% 0 2% 0; 
+        width: 25%;      
+        
+      }
+      .social-media a {
+        margin-left: 20px;
+      }
